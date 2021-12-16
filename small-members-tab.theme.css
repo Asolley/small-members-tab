@@ -1,14 +1,15 @@
 //META{"name":"Small-members-tab","description":"Make the members tab smaller(it gets full size when you hover it).","author":"Beard_Design","version":"1.5.0"}*//{}
 
 /*-------------------made by Beard Design-------------------------*/
+/*Edit By Asolley Version 2*/
 .members-1998pB {
-    transform:translateX(0px);
+    transform:translateX(90px); /*changes icon/name width showing */
     z-index:999;
     transition: transform 400ms cubic-bezier(.2,0,0,1);
     will-change: transform;
 }
 .members-1998pB:hover {
-    transform:translateX(-150px);
+    transform:translateX(-75px); /* width on hover*/
 }
 .app {
     overflow-x: hidden;
@@ -64,8 +65,8 @@
     z-index:0
 }
 .membersWrap-2h-GB4{
-    min-width:90px!important;
-    width:90px!important
+    min-width:10px!important; 
+    width:50px!important /*changed chat width*/
 }
 
 /*-------------------made by Beard Design-------------------------*/
