@@ -1,7 +1,13 @@
-//META{"name":"Small-members-tab","description":"Make the members tab smaller(it gets full size when you hover it).","author":"Beard_Design","version":"1.5.0"}*//{}
+/**
+ * @name Small-members-tab-2.0.0
+ * @author Asolley#1143
+ * @version 2.0.0
+ * @description Make the members tab smaller(it gets full size when you hover it)
+ * @source https://github.com/Asolley/small-members-tab
+*/
 
 /*-------------------made by Beard Design-------------------------*/
-/*Edit By Asolley Version 2*/
+/*Edit By Asolley*/
 .members-1998pB {
     transform:translateX(90px); /*changes icon/name width showing */
     z-index:999;
