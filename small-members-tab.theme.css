@@ -9,13 +9,13 @@
 /*-------------------made by Beard Design-------------------------*/
 /*Edit By Asolley*/
 .members-3WRCEx {
-    transform:translateX(90px); /*changes icon/name width showing */
+    transform:translateX(180px); /*changes icon/name width showing */
     z-index:999;
     transition: transform 400ms cubic-bezier(.2,0,0,1);
     will-change: transform;
 }
 .members-3WRCEx:hover {
-    transform:translateX(-75px); /* width on hover*/
+    transform:translateX(10px); /* width on hover*/
 }
 .app {
     overflow-x: hidden;
@@ -31,48 +31,16 @@
 .members-3WRCEx:hover .member-3W1lQa .memberInner-2CPc3V {
     opacity:1;
 }
-.header-toolbar button.active{
-    display:none;
-}
 
-.members-3WRCEx .membersGroup-v9BXpm {
-    transform:translateX(-50%)scale(0.7);
-    transition: 400ms cubic-bezier(.2,0,0,1), max-width 1ms;
-    width:auto;
-    display: inline-block;
-    min-width: 10px;
-    left:45px;
-    position: relative;
-    flex-basis: auto;
-    box-sizing: border-box;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
-    max-width: 90px;
-    right:45px;
-    padding-left:0;
-    padding-right: 0;
-}
 .members-3WRCEx:hover .membersGroup-v9BXpm {
     transform:translateX(-15px) scale(1);
-    max-width: 180px;
+    max-width: -80px;
 }
 
-.members-3WRCEx .avatar-16XVId {
-    transition: transform 400ms ease;
-    transform:translateX(15px)scale(1.2);
-}
-.members-3WRCEx:hover .avatar-16XVId {
-    transform:translateX(0)scale(1);
+.members-3WRCEx{
+  width: 240px; /*members tab width*/
 }
 
-.chat.flex-vertical.flex-spacer.private>.content.flex-spacer.flex-horizontal>.flex-spacer.flex-vertical{
-    margin-right:0px;
-    z-index:0
+.chatContainer-2XIz4Y, .overlayContainer-5I2S0l{
+	width: 130%; /*chat width*/
 }
-.membersWrap-3NUR2t{
-    min-width:10px!important; 
-    width:50px!important /*changed chat width*/
-}
-
-/*-------------------made by Beard Design-------------------------*/
