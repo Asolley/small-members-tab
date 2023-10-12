@@ -6,41 +6,16 @@
  * @source https://github.com/Asolley/small-members-tab
 */
 
-/*-------------------made by Beard Design-------------------------*/
-/*Edit By Asolley*/
-.members-3WRCEx {
-    transform:translateX(180px); /*changes icon/name width showing */
-    z-index:999;
-    transition: transform 400ms cubic-bezier(.2,0,0,1);
-    will-change: transform;
-}
+/*Small members tab rewrite by Asolley*/
 .members-3WRCEx:hover {
-    transform:translateX(10px); /* width on hover*/
+	transition: width 400ms cubic-bezier(.2,0,0,1);
+	width: 240px;				/* Width on hover for members tab*/ 
 }
-.app {
-    overflow-x: hidden;
+.members-3WRCEx, .membersListNotices-UstAx3 {
+  width: 70px;					/* Sets Width of members tab */
 }
-
-.members-3WRCEx .member-3W1lQa .activity-1IYsbk,
-.members-3WRCEx .member-3W1lQa .memberInner-2CPc3V {
-    opacity:0;
-    transition: transform 100ms ease, opacity 100ms ease;
-    
-}
-.members-3WRCEx:hover .member-3W1lQa .activity-1IYsbk,
-.members-3WRCEx:hover .member-3W1lQa .memberInner-2CPc3V {
-    opacity:1;
+.membersWrap-3NUR2t{
+	min-width: 0px;
 }
 
-.members-3WRCEx:hover .membersGroup-v9BXpm {
-    transform:translateX(-15px) scale(1);
-    max-width: -80px;
-}
 
-.members-3WRCEx{
-  width: 240px; /*members tab width*/
-}
-
-.chatContainer-2XIz4Y, .overlayContainer-5I2S0l{
-	width: 130%; /*chat width*/
-}
