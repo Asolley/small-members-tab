@@ -7,13 +7,13 @@
 */
 
 /*Small members tab rewrite by Asolley*/
-.members__9f47b:hover {
+.members__573eb:hover {
 	transition: width 400ms cubic-bezier(.2,0,0,1);
 	width: 240px;				/* Width on hover for members tab*/ 
 }
-.members__9f47b , .membersListNotices_a4cb13 {
+.members__573eb , .membersListNotices_a4cb13 {
   width: 70px;					/* Sets Width of members tab */
 }
-.membersWrap__90226{
+.membersWrap__5ca6b{
 	   min-width: 0px;	
 }
