@@ -1,3 +1,12 @@
+/**
+ * @name Small-members-tab-2.0.0
+ * @author Asolley#1143
+ * @version 2.0.0
+ * @description Make the members tab smaller(it gets full size when you hover it)
+ * @source https://github.com/Asolley/small-members-tab
+*/
+
+/*Small members tab rewrite by Asolley*/
 .c8ffbb79449f399c-members:hover {
 	transition: width 400ms cubic-bezier(.2,0,0,1);
 	width: 240px;				/* Width on hover for members tab*/ 
@@ -8,4 +17,3 @@
 .c8ffbb79449f399c-membersWrap{
 	   min-width: 0px;	
 }
-
