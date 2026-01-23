@@ -7,13 +7,13 @@
 */
 
 /*Small members tab rewrite by Asolley*/
-.c8ffbb79449f399c-members:hover {
+.members_c8ffbb:hover {
 	transition: width 400ms cubic-bezier(.2,0,0,1);
 	width: 240px;				/* Width on hover for members tab*/ 
 }
-.c8ffbb79449f399c-members, .c8ffbb79449f399c-membersListNotices {
+.members_c8ffbb, .membersListNotices_c8ffbb {
   width: 70px;					/* Sets Width of members tab */
 }
-.c8ffbb79449f399c-membersWrap{
+.membersWrap_c8ffbb{
 	   min-width: 0px;	
 }
